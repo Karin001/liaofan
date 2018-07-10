@@ -9,9 +9,15 @@ ul{
     .fn{
         display: block;
     }
+    .fn-menu {
+        display: none;
+    }
     @include media('<tablet') {
         .fn{
             display: none;
+        }
+        .fn-menu{
+            display: block;
         }
     }
 }

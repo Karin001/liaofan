@@ -5,15 +5,16 @@ import { SharedModule} from '../shared/shared.module';
 import { loadIconSvg } from '../utils/loadiconsvg';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { SidenavComponent } from './sidenav/sidenav.component'
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     HttpClientModule
   ],
-  declarations: [HeaderComponent],
-  exports:[HeaderComponent]
+  declarations: [HeaderComponent, SidenavComponent],
+  exports:[HeaderComponent,SidenavComponent]
 })
 export class CoreModule { 
   constructor(

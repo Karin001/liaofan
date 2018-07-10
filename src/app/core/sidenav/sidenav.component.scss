@@ -1,0 +1,44 @@
+@import "../../../baseStyle/customMinx.scss";
+@import "../../../baseStyle/_include-media.scss";
+:host {
+    @include flx(column,flex-start,flex-start);
+    height:100%;
+}
+app-header{
+    width: 100%;
+}
+
+.example-container{
+    flex:1;
+    width: 100%;
+}
+mat-sidenav-content{
+    height:100%;
+}
+.custom-sidenav{
+    
+    @include flx(column,flex-start);
+    .ge{
+        @include flx;
+        font-size: 16px;
+        
+        .sub-title{
+            padding: 0 5px;
+            
+        }
+        border-bottom:1px solid rgb(85, 82, 82)
+       
+    }
+    mat-nav-list{
+        padding:5px 0;
+    }
+    mat-list-item{
+        
+        font-size: 14px;
+        background: #e9e9e9;
+        &:hover{
+            background: #bebebe;
+        }
+    }
+   
+}

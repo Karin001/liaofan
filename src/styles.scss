@@ -3,3 +3,7 @@
 @import "./baseStyle/_include-media.scss";
 @import "./baseStyle/init.scss";
 @import "./baseStyle/customMinx.scss";
+html, body{
+    height:100%;
+
+}

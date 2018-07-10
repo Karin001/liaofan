@@ -1,10 +1,10 @@
 <mat-toolbar color="primary">
   <ul>
-    <li class="fn-menu"><button mat-icon-button [matMenuTriggerFor]="fnMenu"><mat-icon svgIcon="menu"></mat-icon></button></li>
+    <li class="fn-menu"><button mat-icon-button (click)="ev_toggleSidenav.emit()"><mat-icon svgIcon="menu"></mat-icon></button></li>
     <li class="logo">了凡功过格</li>
     
-    <li class="fn"><button mat-button>功</button></li>
-    <li class="fn"><button mat-button>过</button></li>
+    <li class="fn"><button mat-button>功格</button></li>
+    <li class="fn"><button mat-button>过格</button></li>
     <li class="fn"><button mat-button>记录</button></li>
     <li class="dummy"></li>
     <li class="ava"><button mat-icon-button [matMenuTriggerFor]="adminMenu"><mat-icon svgIcon="avatar"></mat-icon></button></li>
@@ -13,10 +13,6 @@
 </mat-toolbar>
 
 <mat-menu #adminMenu="matMenu">
-  <button mat-menu-item>Item 1</button>
-  <button mat-menu-item>Item 2</button>
-</mat-menu>
-<mat-menu #fnMenu="matMenu">
-  <button mat-menu-item>Item 1</button>
-  <button mat-menu-item>Item 2</button>
+  <button mat-menu-item>修改密码</button>
+  <button mat-menu-item>退出登录</button>
 </mat-menu>
