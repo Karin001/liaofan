@@ -1,0 +1,17 @@
+@import "../../../baseStyle/customMinx.scss";
+@import "../../../baseStyle/_include-media.scss";
+ul{
+    flex:1;
+    @include flx;
+    .dummy{
+        flex:1;
+    }
+    .fn{
+        display: block;
+    }
+    @include media('<tablet') {
+        .fn{
+            display: none;
+        }
+    }
+}

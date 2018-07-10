@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./baseStyle/_include-media.scss";
+@import "./baseStyle/init.scss";
+@import "./baseStyle/customMinx.scss";
