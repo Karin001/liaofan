@@ -1,5 +1,5 @@
 <mat-selection-list #shoes (selectionChange)="select()">
   <mat-list-option *ngFor="let data of datalist" (click)="data.seleted = !data.seleted">
-    {{data.val}}
+    {{data.content}}
   </mat-list-option>
 </mat-selection-list>
