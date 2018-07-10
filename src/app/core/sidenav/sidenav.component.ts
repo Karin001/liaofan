@@ -8,7 +8,7 @@ import {MatSidenav} from '@angular/material';
 export class SidenavComponent implements OnInit {
   @Input() shouldRun=false;
   @ViewChild('sidenav') sidenav: MatSidenav;
-
+  
   reason = '';
 
   
@@ -16,6 +16,7 @@ export class SidenavComponent implements OnInit {
 
   ngOnInit() {
   }
+ 
   close(reason: string) {
     this.reason = reason;
     this.sidenav.close();
