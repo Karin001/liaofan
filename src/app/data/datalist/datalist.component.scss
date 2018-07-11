@@ -1,0 +1,10 @@
+@import "../../../baseStyle/customMinx.scss";
+@import "../../../baseStyle/_include-media.scss";
+:host{
+    .state-shower{
+        position: relative;
+        top:200px;
+        left:150px;
+    }
+
+}

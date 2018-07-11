@@ -7,7 +7,13 @@
     <li class="fn"><button mat-button>过格</button></li>
     <li class="fn"><button mat-button>记录</button></li>
     <li class="dummy"></li>
+    <li class="list">
+      <button mat-icon-button [routerLink]="['/approvalSheet']">
+        <mat-icon svgIcon="list" *ngIf="selectedItems && selectedItems !== '0'" [matBadge]="selectedItems" matBadgeColor="warn"></mat-icon>
+    </button>
+    </li>
     <li class="ava"><button mat-icon-button [matMenuTriggerFor]="adminMenu"><mat-icon svgIcon="avatar"></mat-icon></button></li>
+   
     <li class="username">用户名</li>
   </ul>
 </mat-toolbar>

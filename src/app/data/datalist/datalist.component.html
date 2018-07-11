@@ -1,5 +1,9 @@
-<mat-selection-list #shoes (selectionChange)="select()">
-  <mat-list-option *ngFor="let data of datalist" (click)="data.seleted = !data.seleted">
+<div class="state-shower" *ngIf="dataWaiting">
+  <mat-spinner></mat-spinner>
+</div>
+
+<mat-selection-list *ngIf="!dataWaiting">
+  <mat-list-option *ngFor="let data of itemsToShow" (click)="handleItems(data)">
     {{data.content}}
   </mat-list-option>
 </mat-selection-list>

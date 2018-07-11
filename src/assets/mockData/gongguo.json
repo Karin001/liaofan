@@ -1,90 +1,512 @@
 {
     "gong": {
         "yi": [
-            {"content":"心中清净无一毫杂念。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"心不忘亲常存敬爱。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"常怀与人为善之念。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"火气不生。在在欢喜。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"常想圣贤之言。潜心理会。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"起一念。如天地鬼神鉴临其上。一事十功。", "path":"gong-yi", "val":10, "multi":true},
-            {"content":"听父母教诲。诚心欢喜。敬凛奉持。一日一事一功。", "path":"gong-yi", "val":10, "multi":true},
-            {"content":"变化气质。归于纯粹。千功。", "path":"gong-yi", "val":1000},
-            {"content":"闻淫亵语。而不动心。五功。", "path":"gong-yi", "val":5},
-            {"content":"见好子女。而不动心。五十功。", "path":"gong-yi", "val":50},
-            {"content":"见人善行。闻人善言。生企慕心。一功。", "path":"gong-yi", "val":1},
-            {"content":"见人恶行。闻人恶言。生警省心。一功。", "path":"gong-yi", "val":1},
-            {"content":"静思人恩。以图报称。三功。", "path":"gong-yi", "val":3},
-            {"content":"静筹人托。以期无负。十功。", "path":"gong-yi", "val":10},
-            {"content":"当怒知惩。十功。", "path":"gong-yi", "val":10},
-            {"content":"处繁华中。有恬澹心。五功。", "path":"gong-yi", "val":5},
-            {"content":"处贫贱中。无怨尤心。一日一功。", "path":"gong-yi", "val":1},
-            {"content":"人以非礼相加。无报复心一事十功事大加等。", "path":"gong-yi", "val":10, "config":true},
-            {"content":"人以巧机搀夺。无争执心一事十功事大加等。", "path":"gong-yi", "val":10,"config":true},
-            {"content":"与人有怨。輙思其好处以释之。十功。", "path":"gong-yi", "val":10},
-            {"content":"心中不平。辄思己过处以释之。十功。", "path":"gong-yi", "val":10},
-            {"content":"见人失意。生怅惘心。一功。", "path":"gong-yi", "val":1},
-            {"content":"见人得意。生欢喜心。三功。", "path":"gong-yi", "val":3},
-            {"content":"见人才高。生钦服心。一功。", "path":"gong-yi", "val":1},
-            {"content":"见人饥寒。生怜悯心。一功若能周济算钱记功。", "path":"gong-yi", "val":1, "config":true},
-            {"content":"见人勤劳。生体恤心。五功。", "path":"gong-yi", "val":1},
-            {"content":"见人谬误。无非笑心。一功若能真诚指教十功。", "path":"gong-yi", "val":[1,10], "switch":true},
-            {"content":"见人珍异。无幸得心。一功。", "path":"gong-yi", "val":1},
-            {"content":"见人富贵。无艳慕心。十功。", "path":"gong-yi", "val":10},
-            {"content":"不因势利而生趋附心。三十功。", "path":"gong-yi", "val":30},
-            {"content":"不因衰落而生厌薄心。五十功。", "path":"gong-yi", "val":50},
-            {"content":"不因贫乏而生苟且心。一日一功。", "path":"gong-yi", "val":1},
-            {"content":"不因急迫而生险诈心。三十功。", "path":"gong-yi", "val":30},
-            {"content":"见老成而生敬。三功。", "path":"gong-yi", "val":3},
-            {"content":"见道德而知尊。五功。", "path":"gong-yi", "val":5},
-            {"content":"见人愚顽无礼而不怒。三功。", "path":"gong-yi", "val":3},
-            {"content":"见人饮噉过节而不憎。一功。", "path":"gong-yi", "val":1},
-            {"content":"闻人言语无稽而不厌。一功。", "path":"gong-yi", "val":1},
-            {"content":"见人有功。恒思所报 。五功。", "path":"gong-yi", "val":5},
-            {"content":"见人有过。恒想其难。十功。", "path":"gong-yi", "val":10},
-            {"content":"闻人有善而不疑。一功。", "path":"gong-yi", "val":1},
-            {"content":"闻人有恶而未信。五功。", "path":"gong-yi", "val":5},
-            {"content":"受横不嗔。十功至五十功。", "path":"gong-yi", "val":[10,50], "area":true},
-            {"content":"受谤不辩。十功至五十功。", "path":"gong-yi", "val":[10,50], "area":true},
-            {"content":"引过归己。十功至百功。", "path":"gong-yi",  "val":[10,100], "area":true},
-            {"content":"推善与人。十功至百功。", "path":"gong-yi", "val":[10,100], "area":true},
-            {"content":"时时警惕。如对大宾。一日十功。", "path":"gong-yi", "val":10},
-            {"content":"行则阙疑。五功。", "path":"gong-yi", "val":5},
-            {"content":"居能省过。五功。", "path":"gong-yi", "val":5},
-            {"content":"受一逆耳言。五功至五十功。", "path":"gong-yi", "val":[5,50], "area":true},
-            {"content":"人若过誉。愈知警省。五功。", "path":"gong-yi", "val":5},
-            {"content":"人若趋承。愈行谦抑。五功。", "path":"gong-yi", "val":5},
-            {"content":"世态炎凉。不以介意。一功。", "path":"gong-yi", "val":1},
-            {"content":"一日间无疾言遽色。一功。", "path":"gong-yi", "val":1},
-            {"content":"待仆婢可怒不怒。一功。", "path":"gong-yi", "val":1},
+            {
+                "content": "心中清净无一毫杂念。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "心不忘亲常存敬爱。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "常怀与人为善之念。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "火气不生。在在欢喜。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "常想圣贤之言。潜心理会。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "起一念。如天地鬼神鉴临其上。一事十功。",
+                "path": "gong-yi",
+                "val": 10,
+                "multi": true
+            },
+            {
+                "content": "听父母教诲。诚心欢喜。敬凛奉持。一日一事一功。",
+                "path": "gong-yi",
+                "val": 1,
+                "multi": true
+            },
+            {
+                "content": "变化气质。归于纯粹。千功。",
+                "path": "gong-yi",
+                "val": 1000
+            },
+            {
+                "content": "闻淫亵语。而不动心。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "见好子女。而不动心。五十功。",
+                "path": "gong-yi",
+                "val": 50
+            },
+            {
+                "content": "见人善行。闻人善言。生企慕心。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人恶行。闻人恶言。生警省心。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "静思人恩。以图报称。三功。",
+                "path": "gong-yi",
+                "val": 3
+            },
+            {
+                "content": "静筹人托。以期无负。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "当怒知惩。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "处繁华中。有恬澹心。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "处贫贱中。无怨尤心。一日一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "人以非礼相加。无报复心一事十功事大加等。",
+                "path": "gong-yi",
+                "val": 10,
+                "multi": true
+            },
+            {
+                "content": "人以巧机搀夺。无争执心一事十功事大加等。",
+                "path": "gong-yi",
+                "val": 10,
+                "multi": true
+            },
+            {
+                "content": "与人有怨。輙思其好处以释之。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "心中不平。辄思己过处以释之。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "见人失意。生怅惘心。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人得意。生欢喜心。三功。",
+                "path": "gong-yi",
+                "val": 3
+            },
+            {
+                "content": "见人才高。生钦服心。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人饥寒。生怜悯心。一功若能周济算钱记功。",
+                "path": "gong-yi",
+                "val": [1,10],
+                "area": true
+            },
+            {
+                "content": "见人勤劳。生体恤心。五功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人谬误。无非笑心。一功若能真诚指教十功。",
+                "path": "gong-yi",
+                "val": [
+                    1,
+                    10
+                ],
+                "switch": true
+            },
+            {
+                "content": "见人珍异。无幸得心。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人富贵。无艳慕心。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "不因势利而生趋附心。三十功。",
+                "path": "gong-yi",
+                "val": 30
+            },
+            {
+                "content": "不因衰落而生厌薄心。五十功。",
+                "path": "gong-yi",
+                "val": 50
+            },
+            {
+                "content": "不因贫乏而生苟且心。一日一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "不因急迫而生险诈心。三十功。",
+                "path": "gong-yi",
+                "val": 30
+            },
+            {
+                "content": "见老成而生敬。三功。",
+                "path": "gong-yi",
+                "val": 3
+            },
+            {
+                "content": "见道德而知尊。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "见人愚顽无礼而不怒。三功。",
+                "path": "gong-yi",
+                "val": 3
+            },
+            {
+                "content": "见人饮噉过节而不憎。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "闻人言语无稽而不厌。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "见人有功。恒思所报 。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "见人有过。恒想其难。十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "闻人有善而不疑。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "闻人有恶而未信。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "受横不嗔。十功至五十功。",
+                "path": "gong-yi",
+                "val": [
+                    10,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "受谤不辩。十功至五十功。",
+                "path": "gong-yi",
+                "val": [
+                    10,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "引过归己。十功至百功。",
+                "path": "gong-yi",
+                "val": [
+                    10,
+                    100
+                ],
+                "area": true
+            },
+            {
+                "content": "推善与人。十功至百功。",
+                "path": "gong-yi",
+                "val": [
+                    10,
+                    100
+                ],
+                "area": true
+            },
+            {
+                "content": "时时警惕。如对大宾。一日十功。",
+                "path": "gong-yi",
+                "val": 10
+            },
+            {
+                "content": "行则阙疑。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "居能省过。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "受一逆耳言。五功至五十功。",
+                "path": "gong-yi",
+                "val": [
+                    5,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "人若过誉。愈知警省。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "人若趋承。愈行谦抑。五功。",
+                "path": "gong-yi",
+                "val": 5
+            },
+            {
+                "content": "世态炎凉。不以介意。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "一日间无疾言遽色。一功。",
+                "path": "gong-yi",
+                "val": 1
+            },
+            {
+                "content": "待仆婢可怒不怒。一功。",
+                "path": "gong-yi",
+                "val": 1
+            }
         ],
         "yu": [
-            {"content":"劝化一切害人之事。十功至千功。", "path":"gong-yu", "val":[10,1000], "area":true},
-            {"content":"劝化一人成德。二百功。", "path":"gong-yu", "val":200},
-            {"content":"劝化一人向善。常人三十功。士人一百功。官长五百功。", "path":"gong-yu", "val":[30,100,500], "switch":true},
-            {"content":"劝化一家勤俭。百功。", "path":"gong-yu", "val":100},
-            {"content":"劝化嫖赌奢淫一人回心。百功。", "path":"gong-yu", "val":100},
-            {"content":"劝止一人赌。五十功。", "path":"gong-yu", "val":50},
-            {"content":"劝止一人嫖。五十功。", "path":"gong-yu", "val":50},
-            {"content":"劝止一人堕胎。二百功。", "path":"gong-yu", "val":200},
-            {"content":"劝止一人溺女。五百功。", "path":"gong-yu", "val":500},
-            {"content":"劝人一孝。不从十功。从者百功。改者千功。", "path":"gong-yu", "val":[10,100,1000], "switch":true},
-            {"content":"劝人一悌。不从十功。从者三十功。改者百功。", "path":"gong-yu", "val":[10,30,100], "switch":true},
-            {"content":"劝化人伦理亲戚间和合。百功。", "path":"gong-yu", "val":100},
-            {"content":"劝化人夫妻和合。百功。", "path":"gong-yu", "val":100},
-            {"content":"劝化人弋猎屠钓回心。不从一功。从者十功。改者百功自行弋猎而能改者千功。", "val":[1,10,100,1000], "switch":true},
-            {"content":"自行弋猎而能改者。千功。", "path":"gong-yu", "val":1000, "area":true},
-            {"content":"白一人冤。五十功至二百功。", "path":"gong-yu", "val":[50,200], "area":true},
-            {"content":"扬一人善。一功至五功。", "path":"gong-yu", "val":[1,5], "area":true},
-            {"content":"掩人一恶。十功至五十功。", "path":"gong-yu", "val":[10,50], "area":true},
-            {"content":"劝息人讼。十功至五十功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[10,100], "area":true},
-            {"content":"劝息人争。五功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[5,10],"switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-            {"content":"劝息人怒。三功(关系彼家伦理骨肉者功倍之)。", "path":"gong-yu", "val":[3,6], "switch":true},
-
+            {
+                "content": "劝化一切害人之事。十功至千功。",
+                "path": "gong-yu",
+                "val": [
+                    10,
+                    1000
+                ],
+                "area": true
+            },
+            {
+                "content": "劝化一人成德。二百功。",
+                "path": "gong-yu",
+                "val": 200
+            },
+            {
+                "content": "劝化一人向善。常人三十功。士人一百功。官长五百功。",
+                "path": "gong-yu",
+                "val": [
+                    30,
+                    100,
+                    500
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝化一家勤俭。百功。",
+                "path": "gong-yu",
+                "val": 100
+            },
+            {
+                "content": "劝化嫖赌奢淫一人回心。百功。",
+                "path": "gong-yu",
+                "val": 100
+            },
+            {
+                "content": "劝止一人赌。五十功。",
+                "path": "gong-yu",
+                "val": 50
+            },
+            {
+                "content": "劝止一人嫖。五十功。",
+                "path": "gong-yu",
+                "val": 50
+            },
+            {
+                "content": "劝止一人堕胎。二百功。",
+                "path": "gong-yu",
+                "val": 200
+            },
+            {
+                "content": "劝止一人溺女。五百功。",
+                "path": "gong-yu",
+                "val": 500
+            },
+            {
+                "content": "劝人一孝。不从十功。从者百功。改者千功。",
+                "path": "gong-yu",
+                "val": [
+                    10,
+                    100,
+                    1000
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝人一悌。不从十功。从者三十功。改者百功。",
+                "path": "gong-yu",
+                "val": [
+                    10,
+                    30,
+                    100
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝化人伦理亲戚间和合。百功。",
+                "path": "gong-yu",
+                "val": 100
+            },
+            {
+                "content": "劝化人夫妻和合。百功。",
+                "path": "gong-yu",
+                "val": 100
+            },
+            {
+                "content": "劝化人弋猎屠钓回心。不从一功。从者十功。改者百功自行弋猎而能改者千功。",
+                "path": "gong-yu",
+                "val": [
+                    1,
+                    10,
+                    100,
+                    1000
+                ],
+                "switch": true
+            },
+            {
+                "content": "自行弋猎而能改者。千功。",
+                "path": "gong-yu",
+                "val": 1000,
+                "area": true
+            },
+            {
+                "content": "白一人冤。五十功至二百功。",
+                "path": "gong-yu",
+                "val": [
+                    50,
+                    200
+                ],
+                "area": true
+            },
+            {
+                "content": "扬一人善。一功至五功。",
+                "path": "gong-yu",
+                "val": [
+                    1,
+                    5
+                ],
+                "area": true
+            },
+            {
+                "content": "掩人一恶。十功至五十功。",
+                "path": "gong-yu",
+                "val": [
+                    10,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "劝息人讼。十功至五十功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    10,
+                    100
+                ],
+                "area": true
+            },
+            {
+                "content": "劝息人争。五功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    5,
+                    10
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            },
+            {
+                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "path": "gong-yu",
+                "val": [
+                    3,
+                    6
+                ],
+                "switch": true
+            }
         ],
         "xing": {}
     },

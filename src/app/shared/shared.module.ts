@@ -6,7 +6,13 @@ import {
   MatMenuModule,
   MatIconModule,
   MatSidenavModule,
-  MatListModule
+  MatListModule,
+  MatProgressSpinnerModule,
+  MatBadgeModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatSliderModule,
+  MatButtonToggleModule
 } from '@angular/material';
 @NgModule({
   imports: [CommonModule],
@@ -16,7 +22,13 @@ import {
     MatMenuModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatProgressSpinnerModule,
+    MatBadgeModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSliderModule,
+    MatButtonToggleModule
   ]
 })
 export class SharedModule { }

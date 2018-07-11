@@ -12,6 +12,10 @@ ul{
     .fn-menu {
         display: none;
     }
+    .list{
+       
+        margin: 0 15px;
+    }
     @include media('<tablet') {
         .fn{
             display: none;

@@ -4,8 +4,8 @@
     <div class="ge">
       <span class="sub-title">功</span>
       <mat-nav-list>
-        <mat-list-item><span>意</span></mat-list-item>
-        <mat-list-item><span>口</span></mat-list-item>
+        <mat-list-item [routerLink]="['/dataList','gong-yi']"><span>意</span></mat-list-item>
+        <mat-list-item [routerLink]="['/dataList','gong-yu']"><span>语</span></mat-list-item>
         <mat-list-item><span>行</span></mat-list-item>
       </mat-nav-list>
     </div>
@@ -29,6 +29,6 @@
       </div>
   </mat-sidenav>
   <mat-sidenav-content>
-   
+   <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
