@@ -405,8 +405,7 @@
             {
                 "content": "自行弋猎而能改者。千功。",
                 "path": "gong-yu",
-                "val": 1000,
-                "area": true
+                "val": 1000
             },
             {
                 "content": "白一人冤。五十功至二百功。",

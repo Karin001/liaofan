@@ -1,34 +1,36 @@
-import {HttpClient} from '@angular/common/http'
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { SELECT_ITEM_HEIGHT_EM } from '@angular/material';
-import {DataListJson} from '../DataTypeDefine/DataListJson';
+import { DataListJson } from '../DataTypeDefine/DataListJson';
 import { Observable } from 'rxjs';
-let env_mode = 'localdev'
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { retry } from 'rxjs/operators/retry';
+import 'rxjs/add/operator/retry';
+
+const uri = {
+  dev: 'assets/mockData/gongguo.json',
+  pro: ''
+}
 @Injectable({
   providedIn: 'root'
 })
 export class RestapiService {
-
+  DataListCache: DataListJson;
+  DataLoadSubject = new BehaviorSubject<string>(null);
   constructor(
-    private http:HttpClient
+    private http: HttpClient
   ) { }
-  getDataListFac() :Observable<DataListJson>{
-    switch (env_mode) {
-      case 'localdev':
-        return this.getMockDataList();
-
-      case 'dev':
-        return this.getDataList();
-      
-      default:
-        return this.getMockDataList();
-      
-    }
+  public watchDataLoad() {
+    return this.DataLoadSubject.asObservable();
   }
-  private getDataList() :Observable<DataListJson>{
-    return this.http.get(`assets/mockData/gongguo.json`) as Observable<DataListJson>;
-  }
-  private getMockDataList() :Observable<DataListJson>{
-    return this.http.get(`assets/mockData/gongguo.json`) as Observable<DataListJson>;
+  public getDataList() {
+    this.http.get(uri.dev)
+      .retry(5)
+      .subscribe((data: DataListJson) => {
+        this.DataListCache = data;
+        this.DataLoadSubject.next('data load sucess');
+      }, err => {
+        throw new Error('service没能正确加载datalist数据');
+      });
   }
 }

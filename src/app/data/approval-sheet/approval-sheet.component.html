@@ -1,27 +1,35 @@
-<mat-list>
-  <h3 mat-subheader>功格</h3>
-  <ng-container *ngIf="items.gong">
-      <mat-list-item *ngFor="let item of items.gong" [disableRipple]="false">
-          <div>
-              <p>{{item.content}}</p>
-              <span >{{item.customval}}</span>
-              <mat-slider *ngIf="item.area" min="item.val[0]" max="item.val[item.lenth-1]" step="1" value="item.val[0]" #slider (change)="item.customvVal = slider.value"></mat-slider>
-              
-              <mat-button-toggle-group *ngIf="item.switch" #group="matButtonToggleGroup" #to value="item.val[0]" (change)="item.customvVal = group.value">
-                  <mat-button-toggle *ngFor="let v of item.val" [value]="v">
-                    {{v}}
-                  </mat-button-toggle>
-                  
-                </mat-button-toggle-group>
-                <div class="multi" *ngIf="item.multi">
-                  
-                </div>
-          </div>
-        </mat-list-item>
+<div class="out-container">
+  <ng-container  *ngIf="items && items.gong">
+    <h3>功格</h3>
+    <div class="item-container" *ngFor="let item of items.gong; let i = index">
+      <p>{{item.content}}</p>
+      <span>{{item.customval}}</span>
+      <mat-slider *ngIf="item.area" [thumbLabel]="true" [min]="item.val[0]" [max]="item.val[item.val.length-1]" [step]="1" [value]="item.val[0]"
+        #slider (change)="item.customval = slider.value"></mat-slider>
+      <button (click)="microConfigMinus(item,slider)" mat-icon-button class="m-config" *ngIf="item.area">
+        <mat-icon svgIcon="left"></mat-icon>
+      </button>
+      <button (click)="microConfigAdd(item,slider)" mat-icon-button class="m-config" *ngIf="item.area">
+        <mat-icon svgIcon="right"></mat-icon>
+      </button>
+      <mat-button-toggle-group *ngIf="item.switch" #group="matButtonToggleGroup" #to [value]="item.val[0]" (change)="item.customval = group.value">
+        <mat-button-toggle *ngFor="let v of item.val" [value]="v">
+          {{v}}
+        </mat-button-toggle>
+
+      </mat-button-toggle-group>
+      <button (click)="pMulitiple(item)" mat-icon-button *ngIf="item.multi" class="multi">
+        <mat-icon svgIcon="add"></mat-icon>
+      </button>
+      <button (click)="mMulitiple(item)" mat-icon-button *ngIf="item.multi" class="multi">
+        <mat-icon svgIcon="minus"></mat-icon>
+      </button>
+    </div>
+
   </ng-container>
 
-  <h3 mat-subheader>过格</h3>
+  <h3>过格</h3>
   <button mat-button (click)="approval()">承认</button>
   <h2>结果</h2>
-  
-</mat-list>
+
+</div>

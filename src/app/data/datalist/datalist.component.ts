@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RestapiService } from '../../service/restapi.service';
-import { DataListJson,DataItemJson } from '../../DataTypeDefine/DataListJson';
+import { DataListJson, DataItemJson } from '../../DataTypeDefine/DataListJson';
 import { ActivatedRoute } from '@angular/router';
 import { ItemTransmitService } from '../../service/item-transmit.service';
 @Component({
@@ -13,25 +13,22 @@ export class DatalistComponent implements OnInit {
   itemsToShow: DataItemJson[];
   selectedItems: DataItemJson[] = [];
   dataWaiting: boolean = true;
-  path:string[]
+  path: string[]
   constructor(
     private restapi: RestapiService,
     private activatedRoute: ActivatedRoute,
     private itemTransServ: ItemTransmitService
   ) {
-    this.restapi.getDataListFac().subscribe(dataList => {
-      if (!dataList) {
-        this.dataWaiting = true;
-        throw new Error('获取到非法的datalist值！')
+    this.restapi.watchDataLoad().subscribe(signal => {
+      if (signal === 'data load sucess') {
+        console.log(signal);
+        this.dataList = this.restapi.DataListCache;
+        if (this.path) {
+          this.itemsToShow = this.dataList[this.path[0]][this.path[1]];
+          console.log('here');
+          this.dataWaiting = false;
+        }
       }
-      this.dataList = dataList;
-      console.log(this.path, this.dataList);
-      if(this.path){
-        this.itemsToShow=this.dataList[this.path[0]][this.path[1]];
-        console.log('here');
-        this.dataWaiting=false;
-      }
-
     })
   }
 
@@ -50,17 +47,23 @@ export class DatalistComponent implements OnInit {
         this.dataWaiting = true;
         return;
       }
-     
+
+    })
+    this.itemTransServ.watchItems().subscribe(selectedItems=>{
+      if(selectedItems) {
+        this.selectedItems = [...selectedItems.gong, ...selectedItems.guo];
+        console.log('haha',this.selectedItems);
+      }
     })
   }
 
-  handleItems(item){
+  handleItems(item) {
     item['selected'] = !item['selected']
-    if(item['selected'] === true) {
+    if (item['selected'] === true) {
       this.selectedItems.push(item);
     } else {
-      const index = this.selectedItems.findIndex((ele)=>item.content === ele.content);
-      this.selectedItems.splice(index,1);
+      const index = this.selectedItems.findIndex((ele) => item.content === ele.content);
+      this.selectedItems.splice(index, 1);
     }
     this.itemTransServ.sendItems(this.selectedItems);
   }

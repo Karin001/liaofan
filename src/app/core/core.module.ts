@@ -9,17 +9,15 @@ import { MatIconRegistry } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 import { SidenavComponent } from './sidenav/sidenav.component'
 import { Router,Routes,RouterModule} from '@angular/router';
-import { DatalistComponent } from '../data/datalist/datalist.component';
-const routes: Routes = [{
-  path: 'dataList/:path', component: DatalistComponent,
-}]
+import { RestapiService } from '../service/restapi.service';
+
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     HttpClientModule,
     RouterModule,
-    RouterModule.forChild(routes),
+   
     DataModule
   ],
   declarations: [HeaderComponent, SidenavComponent],
@@ -29,12 +27,14 @@ export class CoreModule {
   constructor(
     @Optional() @SkipSelf() private parent: CoreModule,
     private iconRegistry: MatIconRegistry,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private restapi: RestapiService
   ) {
     if (this.parent) {
       throw new Error('核心模块已加载！不要重复加载！')
     }
     loadIconSvg(iconRegistry, sanitizer);
+    restapi.getDataList();
 
 
   }

@@ -9,7 +9,7 @@
     <li class="dummy"></li>
     <li class="list">
       <button mat-icon-button [routerLink]="['/approvalSheet']">
-        <mat-icon svgIcon="list" *ngIf="selectedItems && selectedItems !== '0'" [matBadge]="selectedItems" matBadgeColor="warn"></mat-icon>
+        <mat-icon svgIcon="list" [matBadgeHidden]="!selectedItems || selectedItems == 0" [matBadge]="selectedItems" matBadgeColor="warn"></mat-icon>
     </button>
     </li>
     <li class="ava"><button mat-icon-button [matMenuTriggerFor]="adminMenu"><mat-icon svgIcon="avatar"></mat-icon></button></li>

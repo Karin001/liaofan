@@ -1,0 +1,52 @@
+@import "../../../baseStyle/customMinx.scss";
+@import "../../../baseStyle/_include-media.scss";
+div.out-container{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding:0 10px;
+    
+    h3{
+        position: relative;
+        left: -5px;
+        font-size: 16px;
+        font-weight: 600;
+            
+    }
+ 
+    .item-container{
+        @include flx(row,flex-start,flex-start);
+        width: 95%;
+        box-sizing: border-box;
+        border-bottom: solid 1px #ddd;
+        padding:10px 0;
+        margin:10px 2.5%;
+       
+     
+        p{
+            width: 100%;
+        }
+        span{
+            width: 100%;
+        }
+        mat-slider{
+            width: 70%;
+            margin:10px 0;
+        }
+        .m-config{
+            box-sizing: border-box;
+            position: relative;
+            top:7px;
+             
+        }
+        mat-button-toggle-group {
+            width: 100%;
+            margin:10px 0;
+        }
+        .multi{
+            margin:10px 0;
+        }
+    }
+    
+}

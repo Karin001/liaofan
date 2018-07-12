@@ -10,9 +10,15 @@ export const loadIconSvg = (iconRegistry, sanitizer) => {
     'list',
     sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/list.svg`));
   iconRegistry.addSvgIcon(
-    'padd',
-    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/padd.svg`));
+    'add',
+    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/add.svg`));
   iconRegistry.addSvgIcon(
-    'madd',
-    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/madd.svg`));
+    'minus',
+    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/minus.svg`));
+  iconRegistry.addSvgIcon(
+    'left',
+    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/left.svg`));
+  iconRegistry.addSvgIcon(
+    'right',
+    sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/right.svg`));
 };

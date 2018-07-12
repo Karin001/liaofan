@@ -3,7 +3,7 @@
 </div>
 
 <mat-selection-list *ngIf="!dataWaiting">
-  <mat-list-option *ngFor="let data of itemsToShow" (click)="handleItems(data)">
+  <mat-list-option *ngFor="let data of itemsToShow" [selected]="data.selected" (click)="handleItems(data)">
     {{data.content}}
   </mat-list-option>
 </mat-selection-list>
