@@ -1,18 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { RestapiService } from './service/restapi.service';
 import { ItemTransmitService } from './service/item-transmit.service';
-import { Routes,RouterModule } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 import { DatalistComponent } from './data/datalist/datalist.component';
 import { ApprovalSheetComponent } from './data/approval-sheet/approval-sheet.component';
+import { DataChartsComponent } from './data/data-charts/data-charts.component';
 const routes: Routes = [{
   path: 'dataList/:path', component: DatalistComponent,
-},{
+}, {
   path: 'approvalSheet', component: ApprovalSheetComponent,
-}]
+}, {
+  path: 'charts', component: DataChartsComponent,
+}];
 @NgModule({
   declarations: [
     AppComponent
@@ -23,7 +26,7 @@ const routes: Routes = [{
     CoreModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [RestapiService,ItemTransmitService],
+  providers: [RestapiService, ItemTransmitService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
