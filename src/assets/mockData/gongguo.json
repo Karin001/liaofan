@@ -462,56 +462,1710 @@
                 "switch": true
             },
             {
-                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "content": "见人躁妄。劝令柔和。不从一功。从者十功。改者五十功。",
                 "path": "gong-yu",
                 "val": [
-                    3,
-                    6
+                    1,
+                    10,
+                    50
                 ],
                 "switch": true
             },
             {
-                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "content": "逢人说正心诚意之道。一事十功能化一人改行入道者一百功。",
                 "path": "gong-yu",
                 "val": [
-                    3,
-                    6
+                    10,
+                    100
                 ],
-                "switch": true
+                "area": true
             },
             {
-                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "content": "调停内外骨肉和睦。五十功。",
                 "path": "gong-yu",
-                "val": [
-                    3,
-                    6
-                ],
-                "switch": true
+                "val": 50
             },
             {
-                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "content": "发一至德言。五功。",
                 "path": "gong-yu",
-                "val": [
-                    3,
-                    6
-                ],
-                "switch": true
+                "val": 5
             },
             {
-                "content": "劝息人怒。三功(关系彼家伦理骨肉者功倍之)。",
+                "content": "荐引一有德人。五十功至百功。",
                 "path": "gong-yu",
                 "val": [
-                    3,
-                    6
+                    50,
+                    100
                 ],
-                "switch": true
+                "area": true
+            },
+            {
+                "content": "劝阻为非。五功至五十功。",
+                "path": "gong-yu",
+                "val": [
+                    5,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "善言教诲妻妾子弟奴婢。一事一日一功。",
+                "path": "gong-yu",
+                "val": 1,
+                "multi": true
+            },
+            {
+                "content": "人所不知。作方便语。五功至五十功。",
+                "path": "gong-yu",
+                "val": [
+                    5,
+                    50
+                ],
+                "area": true
+            },
+            {
+                "content": "凡人有问。皆以直告。不隐不欺。一功至五功。",
+                "path": "gong-yu",
+                "val": [
+                    1,
+                    5
+                ],
+                "area": true
+            },
+            {
+                "content": "人问路觅宿。不惮细说。一功",
+                "path": "gong-yu",
+                "val": 1
+            },
+            {
+                "content": "不妄语。一日五功。",
+                "path": "gong-yu",
+                "val": 5
+            },
+            {
+                "content": "能简默。一日三功。",
+                "path": "gong-yu",
+                "val": 3
+            },
+            {
+                "content": "止人谈闺阃名节事。二十功。",
+                "path": "gong-yu",
+                "val": 20
+            },
+            {
+                "content": "见人毁谤圣贤以理劝止。十功。",
+                "path": "gong-yu",
+                "val": 10
+            },
+            {
+                "content": "见播人恶。劝而止之。三功。",
+                "path": "gong-yu",
+                "val": 3
+            },
+            {
+                "content": "逢人说果报格言一事。一功。",
+                "path": "gong-yu",
+                "val": 1
+            },
+            {
+                "content": "作劝善格言一句。一功。",
+                "path": "gong-yu",
+                "val": 1
+            },
+            {
+                "content": "教人治家保身一事。一功。",
+                "path": "gong-yu",
+                "val": 1
+            },
+            {
+                "content": "见人惊忧。善为劝解。一功",
+                "path": "gong-yu",
+                "val": 1
             }
         ],
-        "xing": {}
+        "xing": [
+            {
+                "content": "立法倡善济众如常平仓育婴堂养济院通水道开义馆义庄之类。利及一人为一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi": true
+            },
+            {
+                "content": "救一无罪人命。五百功。",
+                "path": "gong-xing",
+                "val": 500
+            },
+            {
+                "content": "完一妇女节拒色是也如系处子孀妇尼姑功尤倍若妇人守志我为区画保全亦是。五百功。",
+                "path": "gong-xing",
+                "val": [500,1000],
+                "switch":true
+            },
+            {
+                "content": "延一人子嗣为年老人娶妻置妾生子之类。五百功。",
+                "path": "gong-xing",
+                "val": 500
+            },
+            {
+                "content": "拾财宝还人。五十功至五百功。",
+                "path": "gong-xing",
+                "val": [50,500],
+                "area":true
+            },
+            {
+                "content": "刊施最上善书。百功至五百功。",
+                "path": "gong-xing",
+                "val": [100,500],
+                "area":true
+            },
+            {
+                "content": "捐赀刷印善书。一卷一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "救免一军流重罪。三百功。",
+                "path": "gong-xing",
+                "val": 300
+            },
+            {
+                "content": "免一人卖妻 子女。三二百功。",
+                "path": "gong-xing",
+                "val": [300,200],
+                "switch":true
+            },
+            {
+                "content": "禁止淫书小说淫画春方。二百功自作而能自戒者千功。",
+                "path": "gong-xing",
+                "val": [200,1000],
+                "switch":true
+            },
+            {
+                "content": "成就一人学业德业家业。二百功。",
+                "path": "gong-xing",
+                "val": 200
+            },
+            {
+                "content": "为孤儿娶妇。二百功。",
+                "path": "gong-xing",
+                "val": 200
+            },
+            {
+                "content": "为人立嗣继绝。百功。",
+                "path": "gong-xing",
+                "val": 100
+            }, 
+            {
+                "content": "阴厚亲心所厚之人。百功。",
+                "path": "gong-xing",
+                "val": 100
+            }, 
+            {
+                "content": "救免一徒罪。百功。",
+                "path": "gong-xing",
+                "val": 100
+            },
+            {
+                "content": "表扬一人节义。百功。",
+                "path": "gong-xing",
+                "val": 100
+            },
+            {
+                "content": "倡修桥梁险道。百功。",
+                "path": "gong-xing",
+                "val": 100
+            },
+            {
+                "content": "济一人流离得还乡土。百功。",
+                "path": "gong-xing",
+                "val": 100
+            },
+            {
+                "content": "平价减粜。百钱为一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "倡首行一善事如造凉亭渡船施粥施茶拾字纸放生等。十功至百功。",
+                "path": "gong-xing",
+                "val": [10,100],
+                "area":true
+            }, 
+            {
+                "content": "见人凌虐孤寡。竭力保护。五十功。",
+                "path": "gong-xing",
+                "val": 50
+            }, 
+            {
+                "content": "葬一无主骸骨。五十功。",
+                "path": "gong-xing",
+                "val": 50
+            },
+            {
+                "content": "免一贫人债。十功至五十功。",
+                "path": "gong-xing",
+                "val": [10,50],
+                "area":true
+            },
+            {
+                "content": "成人一美事。十功至五十功。及笄嫁婢。五十功。",
+                "path": "gong-xing",
+                "val": [10,50],
+                "area":true
+            },
+            {
+                "content": "救免一人刑杖。三十功。",
+                "path": "gong-xing",
+                "val": 30
+            },
+            {
+                "content": "抚养一病人至愈。三十功。",
+                "path": "gong-xing",
+                "val": 30
+            },
+            {
+                "content": "表扬一人阴德。十功至三十功。",
+                "path": "gong-xing",
+                "val": [10,30],
+                "area":true
+            },
+            {
+                "content": "施一葬地。二十功。",
+                "path": "gong-xing",
+                "val": 20
+            },
+            {
+                "content": "以方术活一重病。二十功。",
+                "path": "gong-xing",
+                "val": 20
+            },
+            {
+                "content": "施棺一具。二十功。",
+                "path": "gong-xing",
+                "val": 20
+            },
+            {
+                "content": "不负人托。成一有益事。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "善遣一仆如彼有偷盗过恶不明斥者是。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "掘井。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "护持一善人。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "施茶施姜汤一日。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "施粥。一人一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "从厚殡葬仆婢。十功。",
+                "path": "gong-xing",
+                "val": 10
+            },
+            {
+                "content": "报一人恩。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "释一人怨。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "救一人急。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "不乘危急贱买人物。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "待仆婢可责不责。又善谕之。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "救一有力于人之物命牛马犬类。五功至五十功。",
+                "path": "gong-xing",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "亲近明师良友一日。三功。",
+                "path": "gong-xing",
+                "val": 3
+            },
+            {
+                "content": "布施孤老残疾一人。三功。",
+                "path": "gong-xing",
+                "val": 3
+            },
+            {
+                "content": "救一无力于人之畜命。猪羊之类之类。三功。",
+                "path": "gong-xing",
+                "val": 3
+            },
+            {
+                "content": "济一人饥。一功。解一人渴。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "救一禽鱼虫蚁物命。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "衣服器皿。借人应急。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "任劳一事。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "施药一服。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "斋戒志诚一日。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "甘澹惜福一日。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "施天灯一夕。一功。",
+                "path": "gong-xing",
+                "val": 1
+            }, {
+                "content": "施雨具一人。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "惜五谷一次。一功。饭入于秽者十粒一功若水净食之一粒一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "拾字纸一片。一功。",
+                "path": "gong-xing",
+                "val": 1
+            }, {
+                "content": "斋僧道乞丐一人。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "体恤下人艰苦一事。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "买卖从宽一日。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "见老幼残疾疲顿人。扶接过险。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "修街道一丈。一功。砌街道一尺。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "借人物件珍惜如期而还。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "为人保全一物件。一功贵重者功倍加。",
+                "path": "gong-xing",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "录劝善格言果报一条。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "途中除瓦砾。剪荆棘一次。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "埋自死禽兽。一功。",
+                "path": "gong-xing",
+                "val": 1
+            },
+            {
+                "content": "僧道巫祝术士。遇事诱人为善。一功诱人行孝悌者倍加。",
+                "path": "gong-xing",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "热水泼地。留心不伤虫蚁。一次一功。",
+                "path": "gong-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "斋僧道乞丐一人。一功。",
+                "path": "gong-xing",
+                "val": 1
+            }
+        ]
     },
     "guo": {
-        "yi": {},
-        "yu": {},
-        "xing": {}
+        "yi": [
+            {
+                "content": "慢天。千过。",
+                "path": "guo-yi",
+                "val": 1000
+            },
+            {
+                "content": "欺君。千过。",
+                "path": "guo-yi",
+                "val": 1000
+            },
+            {
+                "content": "轻亵祖宗先灵。千过。",
+                "path": "guo-yi",
+                "val": 1000
+            },
+            {
+                "content": "心疑父母偏爱。而生怨望。千过。",
+                "path": "guo-yi",
+                "val": 1000
+            },
+            {
+                "content": "事亲劳而怨。骄而怠。致亲怒。贻亲忧。一事五百过。",
+                "path": "guo-yi",
+                "val": 500
+            },
+            {
+                "content": "故薄亲心所厚之人。五百过。",
+                "path": "guo-yi",
+                "val": 500
+            },
+            {
+                "content": "因财产而憎兄弟。五百过因争产而成讼者千过。",
+                "path": "guo-yi",
+                "val": [500,1000],
+                "switch":true
+            },
+            {
+                "content": "心怀阴险。五百过。代主一切害人之事。百过至千过。",
+                "path": "guo-yi",
+                "val": [100,1000],
+                "area":true
+            },
+            {
+                "content": "起心害众。百过至千过。",
+                "path": "guo-yi",
+                "val": [100,1000],
+                "area":true
+            },
+            {
+                "content": "设计欺公。五十过至五百过。",
+                "path": "guo-yi",
+                "val": [50,500],
+                "area":true
+            },
+            {
+                "content": "文过怙终。十过至百过。",
+                "path": "guo-yi",
+                "val": [10,100],
+                "area":true
+            },
+            {
+                "content": "自作聪明如违众而行不顾事非之类。十过至百过。",
+                "path": "guo-yi",
+                "val": [10,100],
+                "area":true
+            },
+            {
+                "content": "偏执己见。不听人言。十过至百过。",
+                "path": "guo-yi",
+                "val": [10,100],
+                "area":true
+            },
+            {
+                "content": "父母教诲。口应心违。一事五十过。",
+                "path": "guo-yi",
+                "val": 50,
+                "multi":true
+            },
+            {
+                "content": "祭先不敬。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },
+            {
+                "content": "事长不让。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },{
+                "content": "受恩不思报。五十过恩多者倍。",
+                "path": "guo-yi",
+                "val": 50,
+                "multi":true
+            },
+            {
+                "content": "借财不得遂。若仇雠。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },
+            {
+                "content": "欠债不还。因人取讨。反生怨恨。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },
+            {
+                "content": "闻善知悦。过后即忘。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },
+            {
+                "content": "起念为善。未几即怠。五十过。",
+                "path": "guo-yi",
+                "val": 50
+            },
+            {
+                "content": "囤米图高价。五十过至五百过。",
+                "path": "guo-yi",
+                "val": [50,500],
+                "area":true
+            },
+            {
+                "content": "临财思苟得。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "见好子女輙生意恋。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "见人得意。即生嫉妒。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "见人失意。反生畅快。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "识不逮其人而故欲非之。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "才不及其人而故欲傲之。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "作事乖谬。反怨人不用。三十过。",
+                "path": "guo-yi",
+                "val": 30
+            },
+            {
+                "content": "祭神不敬。二十过。",
+                "path": "guo-yi",
+                "val": 20
+            },
+            {
+                "content": "见杀反以为快。二十过。",
+                "path": "guo-yi",
+                "val": 20
+            },
+            {
+                "content": "贫贱怨尤。一事十过。",
+                "path": "guo-yi",
+                "val": 10,
+                "multi":true
+            },
+            {
+                "content": "富贵骄泰。一事十过。",
+                "path": "guo-yi",
+                "val": 10,
+                "multi":true
+            },
+            {
+                "content": "淫念贪念恶念嫉妒念媚世念。辗转不除一日十过。",
+                "path": "guo-yi",
+                "val": 10
+               
+            },
+            {
+                "content": "忿心躁心傲心不平心阴贼心。循环不已一日十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "昏惰。一日十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "闻人有善而不信。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "心欲胜人。时生嫉妒。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "心惟利己。时生忿怒。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "心图人物而口支吾。一过至十过。",
+                "path": "guo-yi",
+                "val": [1,10],
+                "area":true
+            },
+            {
+                "content": "心慕其人而口倔彊。一过至十过。",
+                "path": "guo-yi",
+                "val": [1,10],
+                "area":true
+            },
+            {
+                "content": "心议人非。而为面谀。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "所谋未当。恨人不从。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },  {
+                "content": "觊图非分。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "嗔一逆耳言。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "憎戒行僧道。五过。",
+                "path": "guo-yi",
+                "val": 5
+            },
+            {
+                "content": "迁怒。十过。",
+                "path": "guo-yi",
+                "val": 10
+            },
+            {
+                "content": "闻妇人声。便尔心移。三过。",
+                "path": "guo-yi",
+                "val": 3
+            },
+            {
+                "content": "学不若人。不耻不勉。一日一过。",
+                "path": "guo-yi",
+                "val": 1
+            },
+            {
+                "content": "轻忽傲慢。一事一过。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "小事忿怒。一事一过。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "不干己事动怒。一事一过若更不合理者加之。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "已过之事。留恋不忘。未来之事。虚为筹画。一事一过。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "虚愿妄想。一事一过。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "不恤仆婢役人饥寒劳苦。一事一日一过。",
+                "path": "guo-yi",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "见食粗粝生憎心。一过。",
+                "path": "guo-yi",
+                "val": 1
+            },
+            {
+                "content": "见人卤莽生厌心。一过。",
+                "path": "guo-yi",
+                "val": 1
+            },
+            {
+                "content": "见人雄餐生恶心。一过",
+                "path": "guo-yi",
+                "val": 1
+            }
+        ],
+        "yu": [
+            {
+                "content": "诋触父母一言。千过。",
+                "path": "guo-yu",
+                "val": 1000
+            },
+            {
+                "content": "倡说叛圣贤。千过。",
+                "path": "guo-yu",
+                "val": 1000
+            },
+            {
+                "content": "怨怼言父母过。五百过",
+                "path": "guo-yu",
+                "val": 500
+            },
+            {
+                "content": "造言谤污一妇女节。五百过倘有失所拆离或致死者千过。",
+                "path": "guo-yu",
+                "val": [500,1000],
+                "switch":true
+            },
+            {
+                "content": "离间人骨肉。五百过。阻亲善。唆亲恶。一事百过。",
+                "path": "guo-yu",
+                "val": 100,
+                "multi":true
+            },
+            {
+                "content": "发人阴私。十过至百过。",
+                "path": "guo-yu",
+                "val": [10,100],
+                "area":true
+            },
+            {
+                "content": "造言诬人。十过至百过。",
+                "path": "guo-yu",
+                "val": [10,100],
+                "area":true
+            },
+            {
+                "content": "恶言犯师长叔伯尊亲。五十过。",
+                "path": "guo-yu",
+                "val": 50
+            },
+            {
+                "content": "父母祖父母前。掩饰虚言一次。五十过。",
+                "path": "guo-yu",
+                "val": 50
+            },
+            {
+                "content": "讥议前贤。五十过。",
+                "path": "guo-yu",
+                "val": 50
+            },
+            {
+                "content": "毁谤神佛。五十过。",
+                "path": "guo-yu",
+                "val": 50
+            },
+            {
+                "content": "呵风骂雨怨寒怒暑。五十过。",
+                "path": "guo-yu",
+                "val": 50
+            },
+            {
+                "content": "察人阴私。五过至五十过。",
+                "path": "guo-yu",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "教人为不善。五过至五十过。",
+                "path": "guo-yu",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "虚诳一事。五过至五十过。",
+                "path": "guo-yu",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "言尊长过。三十过。谑及闺闱子女。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "戏语谩及圣贤仙佛。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "戏侮经传以经语资谈笑者亦同。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "文过巧饰。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "毁谤行善等书。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "造一人歌谣诨号。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "犯人父兄长上。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "推求人过凡所未必然者。三十过。",
+                "path": "guo-yu",
+                "val": 30
+            },
+            {
+                "content": "非议朝政。二十过。",
+                "path": "guo-yu",
+                "val": 20
+            },
+            {
+                "content": "面责人过。使不能容。二十过。",
+                "path": "guo-yu",
+                "val": 20
+            },
+            {
+                "content": "遗落穷亲。二十过。",
+                "path": "guo-yu",
+                "val": 20
+            },
+            {
+                "content": "冷语侵人。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "非议所居之大夫。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "谈淫亵语。十过有幼辈在座者加倍。",
+                "path": "guo-yu",
+                "val": [10,20],
+                "switch":true
+            },
+            {
+                "content": "以言餂人。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "谩语荒唐。不循道理。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "逆理毁骂。自以为直。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "言人之过。有伤恕道。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "遁词虚伪。言不由中。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "凡辞务尽。刺刺不休。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "出损德语一句。十过。",
+                "path": "guo-yu",
+                "val": 10
+            },
+            {
+                "content": "骂人。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "恶言挺触人。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "以言报复。不能忍耐。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "率口乱道。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "没一人善。五过。播一人恶。五过至五十过。",
+                "path": "guo-yu",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "虚传一事。五过至五十过。传闻未确。即行播扬。五过。",
+                "path": "guo-yu",
+                "val": [5,50],
+                "area":true
+            },
+            {
+                "content": "恶谑浪语。五过。酒后大言。谩无所畏。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "不观颜色。不避忌讳。五过。",
+                "path": "guo-yu",
+                "val": 5
+            },
+            {
+                "content": "背后骂人。三过。",
+                "path": "guo-yu",
+                "val": 3
+            },
+            {
+                "content": "背后批评人。一过关人名节者加倍。",
+                "path": "guo-yu",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "谑谩一语 。一过。",
+                "path": "guo-yu",
+                "val": 1
+            },
+            {
+                "content": "欺诳无识。一过事大加倍。",
+                "path": "guo-yu",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "戏侮愚懦。一过事大加倍。",
+                "path": "guo-yu",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "骂辱乞丐。一过老幼妇女残废者加倍。",
+                "path": "guo-yu",
+                "val": [1,2],
+                "switch":true
+            },
+            {
+                "content": "夸己能。一过。",
+                "path": "guo-yu",
+                "val": 1
+            },
+            {
+                "content": "播扬人闺壶丑事。一事百过。",
+                "path": "guo-yu",
+                "val": 100,
+                "multi":true
+            }
+        ],
+        "xing": [
+            {
+                "content": "违拗祖父母父母一事。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "败一良家妇女节。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "堕一良家子弟行。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "造淫书艳曲淫画。刊刻刷印者同千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "创一事贻害地方。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "致一人死。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "绝一人嗣。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "夸己能。一过。",
+                "path": "guo-xing",
+                "val": 1
+            },
+            {
+                "content": "卖婢作娼。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "溺女一次。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "致一人军流罪。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "放火烧人房子。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "白占人田产。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "用谋图娶寡妇尼姑为妻妾。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "宠妾弃妻。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "纵子孙为恶。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "不葬亲柩。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "掘一人尸。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "图谋风水。侵害他人坟茔。五百过。",
+                "path": "guo-xing",
+                "val": 500
+            },
+            {
+                "content": "侵害自己祖坟。千过。",
+                "path": "guo-xing",
+                "val": 1000
+            },
+            {
+                "content": "堕胎一次。因邪色者加倍三百过。",
+                "path": "guo-xing",
+                "val": [300,600],
+                "switch":true
+            },
+            {
+                "content": "奸淫微贱及原失节妇。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "蓄俊仆艳婢。致启邪淫。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "学蛊毒魇魅房术外道。并传人。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "诱一人嫖。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "诱一人赌。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "倾一人家产。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "破一家风水。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "致一人失所。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "唆一人词讼。三百过因而破家者加倍。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "破一人婚姻。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "诱一人为非。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "排摈一德行人。五十过至五百过。",
+                "path": "guo-xing",
+                "val": [50,500],
+                "area":true
+            },
+            {
+                "content": "纵仆为恶。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "致一人卖妻。三百过。",
+                "path": "guo-xing",
+                "val": 300
+            },
+            {
+                "content": "妻虐婢妾。不能检制。百过至三百过致死者千过。",
+                "path": "guo-xing",
+                "val": [100,1000],
+                "area":true
+            },
+            {
+                "content": "坏一人前程。二百过。",
+                "path": "guo-xing",
+                "val": 200
+            },
+            {
+                "content": "毁坏一人戒行。二百过。",
+                "path": "guo-xing",
+                "val": 200
+            },
+            {
+                "content": "锢婢不嫁。二百过。",
+                "path": "guo-xing",
+                "val": 200
+            },
+            {
+                "content": "故用假银。二百过因假银致生他变者加倍。",
+                "path": "guo-xing",
+                "val": [200,400],
+                "switch":true
+            },
+            {
+                "content": "致一人典卖子女。二百过。至一人徒罪。二百过。",
+                "path": "guo-xing",
+                "val": 200
+            },
+            {
+                "content": "养子不教。二百过。",
+                "path": "guo-xing",
+                "val": 200
+            },
+            {
+                "content": "阴谋田产。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "开场赌博一次。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "买良为贱。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "助人为恶。事大者加一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "无识毁经书。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "听妇言疏亲族。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "生事诈人财物。一百过。",
+                "path": "guo-xing",
+                "val": 100
+            },
+            {
+                "content": "为人作一逆理词状。 五十过至五百过因而害人命者千过",
+                "path": "guo-xing",
+                "val": [50,1000],
+                "area":true
+            },
+            {
+                "content": "见冤可白不白。五十过关系他人名节伦常者倍之。",
+                "path": "guo-xing",
+                "val": [50,100],
+                "switch":true
+            },
+            {
+                "content": "遇难可救不救。五十过关系人家产性命者加之。",
+                "path": "guo-xing",
+                "val": [50,100],
+                "switch":true
+            },
+            {
+                "content": "婢仆不教教者善言劝谕非打骂也。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "虐使仆婢。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "倚势凌人。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "因公索诈。五十过财多者加。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "阻挠一善事。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "荐引一匪人。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "乘人急谋。人什物。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "亵渎三光。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "致一人杖刑。五十过。",
+                "path": "guo-xing",
+                "val": 50
+                
+            },
+            {
+                "content": "居官及家长。枉杖一人。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "嫖妓及男。淫一次。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "疑病妄药。五十过。",
+                "path": "guo-xing",
+                "val": 50
+            },
+            {
+                "content": "有子娶妾。三十过。虽未有子。年未三十娶妾者。三十过。",
+                "path": "guo-xing",
+                "val": 30
+            },
+            {
+                "content": "教人渔猎。三十过。毒药杀鱼。三十过。",
+                "path": "guo-xing",
+                "val": 30
+            },
+            {
+                "content": "报怨太过。三十过至百过。",
+                "path": "guo-xing",
+                "val": [30,100],
+                "area":true
+            },
+            {
+                "content": "谎骗财物。三十过多者加。",
+                "path": "guo-xing",
+                "val": 30
+            },
+            {
+                "content": "纵妇女入庙烧香看戏。三十过。",
+                "path": "guo-xing",
+                "val": 30
+            },
+            {
+                "content": "演淫戏一场。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "祭祀愆期。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "人虽有罪杖之过多过重者。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "私宰牛犬。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "赌博一次。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "窥探良家子女。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "侵蚀国课。二十过多者加富者加。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "为人处事受贿。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "匿遗。二十过。",
+                "path": "guo-xing",
+                "val": 20
+            },
+            {
+                "content": "与不良者交。一人一日。十过。",
+                "path": "guo-xing",
+                "val": 10,
+                "multi":true
+            },
+            {
+                "content": "逸乐恣纵一日。十过。",
+                "path": "guo-xing",
+                "val": 10
+            },
+            {
+                "content": "盛气凌人。十过。",
+                "path": "guo-xing",
+                "val": 10
+            },
+            {
+                "content": "拆人家信一封。十过。",
+                "path": "guo-xing",
+                "val": 10
+            },
+            {
+                "content": "力优吝施一事。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "重利放债一两。五过多者照数加算。",
+                "path": "guo-xing",
+                "val": 5,
+                "multi":true
+            },
+            {
+                "content": "留盻男女。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "轻侮寒微。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "负人一约。五过事大者加。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "弃字纸一片 五过濊污者加。",
+                "path": "guo-xing",
+                "val": 5,
+                "multi":true
+            },
+            {
+                "content": "毁伤人器物一件。五过贵重者加。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "弃五榖。暴天物一次。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "杀一牲口。五过无故特杀者加。",
+                "path": "guo-xing",
+                "val": 5,
+                "multi":true
+            },
+            {
+                "content": "见人私取人物。特往撞破 。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "借人器物不还。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "谄富骄贫。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "见人不为礼。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "面是背非。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "瞒众受利。五过多者加。",
+                "path": "guo-xing",
+                "val": 5,
+                "multi":true
+            },
+            {
+                "content": "贿名邀誉。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "虽非邪淫。而夫妻纵欲。五过。",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "饮酒至醉。一过。",
+                "path": "guo-xing",
+                "val": 1
+            },
+            {
+                "content": "与不良人同伴。一次一过。",
+                "path": "guo-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "男女溷杂无别。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "索债过急。三过至三百过致人卖男女卖物者加算。",
+                "path": "guo-xing",
+                "val": [3,300],
+                "area":true
+            },
+            {
+                "content": "杀禽鱼昆虫一命。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "虚闲废学一日。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "享用过丰一日。一过贫者加。",
+                "path": "guo-xing",
+                "val": 1
+            },
+            {
+                "content": "为人教子孝。不尽心。一日一事三过至三十过。",
+                "path": "guo-xing",
+                "val": [3,30],
+                "area":true
+            },
+            {
+                "content": "以不净手翻书。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "以书籍字扇置枕席间。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "卧看经书。一过。",
+                "path": "guo-xing",
+                "val": 1
+            },
+            {
+                "content": "用假银一分。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "占一小便宜。一过。",
+                "path": "guo-xing",
+                "val": 1
+            },
+            {
+                "content": "拘系禽兽一日。一过致死一命者加。",
+                "path": "guo-xing",
+                "val": 1,
+                "multi":true
+            },
+            {
+                "content": "专信神佛。不孝敬父兄伯叔。一日三十过。",
+                "path": "guo-xing",
+                "val": 30
+            },
+            {
+                "content": "为人作事不尽心。十过 事大者加。",
+                "path": "guo-xing",
+                "val": 10
+            },
+            {
+                "content": "借用他人器物不爱惜。十过。因而毁坏者加。",
+                "path": "guo-xing",
+                "val": 10
+            },
+            {
+                "content": "沉搁人家信。五过误人事者加",
+                "path": "guo-xing",
+                "val": 5
+            },
+            {
+                "content": "便溺洗澡不避三光。三过。",
+                "path": "guo-xing",
+                "val": 3
+            },
+            {
+                "content": "僧道巫祝术士。谎骗人财。百钱一过 致人骨肉参商 千过。",
+                "path": "guo-xing",
+                "val": [1,1000],
+                "area":true
+            },
+            {
+                "content": "窃听人私语。三过因而告人者加。",
+                "path": "guo-xing",
+                "val": 3
+            }
+        ]
     }
 }

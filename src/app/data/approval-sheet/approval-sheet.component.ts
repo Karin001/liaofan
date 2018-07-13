@@ -25,12 +25,12 @@ export class ApprovalSheetComponent implements OnInit {
   approval() {
     console.log(this.items);
   }
-  microConfigMinus(item,slider) {
-    slider['value'] = slider.value>item.val[0]?slider.value-1:item.val[0];
+  microConfigMinus(item) {
+   
     item.customval = item.customval>item.val[0]?item.customval-1:item.val[0];
   }
-  microConfigAdd(item,slider) {
-    slider['value'] = slider.value<slider.max?slider.value+1:slider.max;
+  microConfigAdd(item) {
+  
     item.customval = item.customval<item.val[item.val.length-1]?item.customval+1:item.val[item.val.length-1];
   }
   pMulitiple(item){
