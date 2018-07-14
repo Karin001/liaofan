@@ -8,6 +8,7 @@ export interface DataItemJson {
   area?: boolean;
   selected?: boolean;
   customval?: number;
+  id: string;
 }
 export interface DataGroupJson {
   yi: DataItemJson[];

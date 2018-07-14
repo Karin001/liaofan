@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { single, multi } from '../../../assets/mockData/data';
 import { RestapiService } from '../../service/restapi.service';
-import { DateJson } from '../../DataTypeDefine/DataListJson';
+import { DateJson, DataListJson } from '../../DataTypeDefine/DataListJson';
 @Component({
   selector: 'app-data-charts',
   templateUrl: './data-charts.component.html',
@@ -9,6 +9,7 @@ import { DateJson } from '../../DataTypeDefine/DataListJson';
 })
 export class DataChartsComponent implements OnInit {
   private dateJson: DateJson;
+  private datalist: DataListJson;
   single: any[];
   multi: any[];
   disabled = true;
@@ -45,9 +46,21 @@ export class DataChartsComponent implements OnInit {
         console.log(this.dateJson);
       }
     });
+    this.restapi.watchDataLoad().subscribe(signal => {
+      if (signal === 'data load sucess') {
+        this.datalist = this.restapi.DataListCache;
+        console.log(this.datalist);
+      }
+    });
   }
   onSelect(event) {
     console.log(event);
+    const listCache = this.showBox.find(ele => ele.name === event.series)
+      .series.find(ele => ele.name === event.name).list;
+    const groupName = event.series === '功' ? 'gong' : 'guo';
+    const listItem =  this.datalist[groupName].xing.concat(this.datalist[groupName].yu,this.datalist[groupName].yi)
+    .filter(ele => listCache.includes(ele.id));
+    console.log(listItem);
   }
   filFac(data) {
     return (d: Date) => {
@@ -98,7 +111,7 @@ export class DataChartsComponent implements OnInit {
       }
     }
     const temp = data.slice(startIndex, endIndex + 1).map(ele => {
-      return { 'name': ele.date.slice(5, 10), 'value': ele.gong.val }
+      return { 'name': ele.date.slice(5, 10), 'value': ele.gong.val, 'list': ele.gong.list }
     });
     console.log(temp, startIndex, endIndex);
     this.showBox = [

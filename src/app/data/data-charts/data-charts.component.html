@@ -1,11 +1,11 @@
-<mat-form-field *ngIf="dateJson">
+<mat-form-field *ngIf="dateJson && datalist">
   <input matInput disabled [matDatepickerFilter]="filFac(dateJson)" [matDatepicker]="picker" placeholder="Choose a date" (dateChange)="onDateChange($event)">
   <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
   <mat-datepicker #picker disabled="false"></mat-datepicker>
 </mat-form-field>
 <div class="container">
   <ngx-charts-line-chart
-  *ngIf="showBox"
+  *ngIf="showBox && datalist"
   [scheme]="colorScheme"
   [results]="showBox"
   [gradient]="gradient"
