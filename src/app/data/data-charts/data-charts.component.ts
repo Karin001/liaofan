@@ -10,16 +10,16 @@ export class DataChartsComponent implements OnInit {
   single: any[];
   multi: any[];
 
-  view: any[] = [400, 400];
+  view: any[] = [600, 400];
 
   // options
   showXAxis = true;
   showYAxis = true;
   gradient = false;
-  showLegend = true;
-  showXAxisLabel = true;
+  showLegend = false;
+  showXAxisLabel = false;
   xAxisLabel = 'Country';
-  showYAxisLabel = true;
+  showYAxisLabel = false;
   yAxisLabel = 'Population';
 
   colorScheme = {
@@ -37,5 +37,8 @@ export class DataChartsComponent implements OnInit {
   }
   onSelect(event) {
     console.log(event);
+  }
+  onDateChange(e){
+    console.log(e);
   }
 }

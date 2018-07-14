@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { 
+import {
   MatToolbarModule,
   MatButtonModule,
   MatMenuModule,
@@ -12,7 +12,9 @@ import {
   MatFormFieldModule,
   MatInputModule,
   MatSliderModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
 } from '@angular/material';
 @NgModule({
   imports: [CommonModule],
@@ -28,7 +30,9 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatSliderModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ]
 })
 export class SharedModule { }

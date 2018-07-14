@@ -1,3 +1,9 @@
+export const datedata = [
+  {
+
+  }
+
+];
 export var single = [
   {
     "name": "Germany",
@@ -18,12 +24,12 @@ export var multi = [
     "name": "功",
     "series": [
       {
-        "name": '2011-02-03',
-        "value": 7300000
+        "name": '一',
+        "value": 730
       },
       {
-        "name": "2011-02-04",
-        "value": 8940000
+        "name": "二",
+        "value": 8940
       }
     ]
   },
@@ -32,12 +38,31 @@ export var multi = [
     "name": "过",
     "series": [
       {
-        "name": "2011-02-03",
-        "value": -7870000
+        "name": "一",
+        "value": -123
       },
       {
-        "name": "2011-02-04",
-        "value": -8270000
+        "name": "二",
+        "value": -1000
+      },
+      {
+        "name": "三",
+        "value": '0'
+      },
+      {
+        "name": "四",
+        "value": -34
+      },
+      {
+        "name": "五",
+        "value": -3
+      },
+      {
+        "name": "六",
+        "value": -6
+      }, {
+        "name": '日',
+        "value": -1
       }
     ]
   },
@@ -46,12 +71,12 @@ export var multi = [
     "name": "中和",
     "series": [
       {
-        "name": "2011-02-03",
-        "value": 5000002
+        "name": "一",
+        "value": 5000
       },
       {
-        "name": "2011-02-04",
-        "value": 5800000
+        "name": "二",
+        "value": 5800
       }
     ]
   }
