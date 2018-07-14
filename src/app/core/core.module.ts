@@ -17,13 +17,13 @@ import { RestapiService } from '../service/restapi.service';
     SharedModule,
     HttpClientModule,
     RouterModule,
-   
+
     DataModule
   ],
   declarations: [HeaderComponent, SidenavComponent],
   exports:[HeaderComponent,SidenavComponent]
 })
-export class CoreModule { 
+export class CoreModule {
   constructor(
     @Optional() @SkipSelf() private parent: CoreModule,
     private iconRegistry: MatIconRegistry,
@@ -35,6 +35,7 @@ export class CoreModule {
     }
     loadIconSvg(iconRegistry, sanitizer);
     restapi.getDataList();
+    restapi.getDateJson();
 
 
   }

@@ -1,21 +1,25 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { SELECT_ITEM_HEIGHT_EM } from '@angular/material';
-import { DataListJson } from '../DataTypeDefine/DataListJson';
+import { DataListJson, DateJson } from '../DataTypeDefine/DataListJson';
 import { Observable } from 'rxjs';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { retry } from 'rxjs/operators/retry';
 import 'rxjs/add/operator/retry';
 
 const uri = {
-  dev: 'assets/mockData/gongguo.json',
+  dev: 'assets/mockData/gongguonew.json',
   pro: ''
-}
+};
+const dateUri = {
+  dev: 'assets/mockData/dateJson.json',
+};
 @Injectable({
   providedIn: 'root'
 })
 export class RestapiService {
   DataListCache: DataListJson;
+  DateJsonCache: DateJson;
   DataLoadSubject = new BehaviorSubject<string>(null);
   constructor(
     private http: HttpClient
@@ -32,5 +36,15 @@ export class RestapiService {
       }, err => {
         throw new Error('service没能正确加载datalist数据');
       });
+  }
+  public getDateJson() {
+    this.http.get(dateUri.dev)
+    .retry(5)
+    .subscribe((data: DateJson) => {
+      this.DateJsonCache = data;
+      this.DataLoadSubject.next('dateJson load success');
+    },err => {
+      throw new Error('service没能正确加载dateJson数据');
+    });
   }
 }

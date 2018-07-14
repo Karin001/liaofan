@@ -5,6 +5,7 @@
                 "content": "心中清净无一毫杂念。一日十功。",
                 "path": "gong-yi",
                 "val": 10
+
             },
             {
                 "content": "心不忘亲常存敬爱。一日十功。",
@@ -655,12 +656,12 @@
                 "content": "为人立嗣继绝。百功。",
                 "path": "gong-xing",
                 "val": 100
-            }, 
+            },
             {
                 "content": "阴厚亲心所厚之人。百功。",
                 "path": "gong-xing",
                 "val": 100
-            }, 
+            },
             {
                 "content": "救免一徒罪。百功。",
                 "path": "gong-xing",
@@ -692,12 +693,12 @@
                 "path": "gong-xing",
                 "val": [10,100],
                 "area":true
-            }, 
+            },
             {
                 "content": "见人凌虐孤寡。竭力保护。五十功。",
                 "path": "gong-xing",
                 "val": 50
-            }, 
+            },
             {
                 "content": "葬一无主骸骨。五十功。",
                 "path": "gong-xing",
@@ -1139,7 +1140,7 @@
                 "content": "淫念贪念恶念嫉妒念媚世念。辗转不除一日十过。",
                 "path": "guo-yi",
                 "val": 10
-               
+
             },
             {
                 "content": "忿心躁心傲心不平心阴贼心。循环不已一日十过。",
@@ -1858,7 +1859,7 @@
                 "content": "致一人杖刑。五十过。",
                 "path": "guo-xing",
                 "val": 50
-                
+
             },
             {
                 "content": "居官及家长。枉杖一人。五十过。",

@@ -5,9 +5,9 @@
 </mat-form-field>
 <div class="container">
   <ngx-charts-line-chart
-
+  *ngIf="showBox"
   [scheme]="colorScheme"
-  [results]="multi"
+  [results]="showBox"
   [gradient]="gradient"
   [xAxis]="showXAxis"
   [yAxis]="showYAxis"
