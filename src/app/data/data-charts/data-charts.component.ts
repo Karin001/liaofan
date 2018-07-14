@@ -11,6 +11,7 @@ export class DataChartsComponent implements OnInit {
   private dateJson: DateJson;
   single: any[];
   multi: any[];
+  disabled = true;
   showBox;
   view: any[] = [600, 400];
 
@@ -50,7 +51,8 @@ export class DataChartsComponent implements OnInit {
   }
   filFac(data) {
     return (d: Date) => {
-      return  d.getTime() - new Date(data.data[0].date).getTime() > -86400000 &&
+      return data.data.map(e => new Date(e.date).toLocaleDateString().slice(0, 10))
+        .includes(d.toLocaleDateString().slice(0, 10)) && d.getTime() - new Date(data.data[0].date).getTime() > -86400000 &&
         d.getTime() < new Date(data.data[data.data.length - 1].date).getTime();
 
     };
