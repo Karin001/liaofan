@@ -21,11 +21,15 @@ export class RestapiService {
   DataListCache: DataListJson;
   DateJsonCache: DateJson;
   DataLoadSubject = new BehaviorSubject<string>(null);
+  DateJsonLoadSubject = new BehaviorSubject<string>(null);
   constructor(
     private http: HttpClient
   ) { }
   public watchDataLoad() {
     return this.DataLoadSubject.asObservable();
+  }
+  public watchDateJsonLoad() {
+    return this.DateJsonLoadSubject.asObservable();
   }
   public getDataList() {
     this.http.get(uri.dev)
@@ -42,7 +46,7 @@ export class RestapiService {
     .retry(5)
     .subscribe((data: DateJson) => {
       this.DateJsonCache = data;
-      this.DataLoadSubject.next('dateJson load success');
+      this.DateJsonLoadSubject.next('dateJson load success');
     },err => {
       throw new Error('service没能正确加载dateJson数据');
     });

@@ -8,7 +8,7 @@ import { DateJson } from '../../DataTypeDefine/DataListJson';
   styleUrls: ['./data-charts.component.scss']
 })
 export class DataChartsComponent implements OnInit {
-  dateJson: DateJson;
+  private dateJson: DateJson;
   single: any[];
   multi: any[];
   showBox;
@@ -38,7 +38,7 @@ export class DataChartsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.restapi.watchDataLoad().subscribe(signal => {
+    this.restapi.watchDateJsonLoad().subscribe(signal => {
       if (signal === 'dateJson load success') {
         this.dateJson = this.restapi.DateJsonCache;
         console.log(this.dateJson);
@@ -48,6 +48,14 @@ export class DataChartsComponent implements OnInit {
   onSelect(event) {
     console.log(event);
   }
+  filFac(data) {
+    return (d: Date) => {
+      return  d.getTime() - new Date(data.data[0].date).getTime() > -86400000 &&
+        d.getTime() < new Date(data.data[data.data.length - 1].date).getTime();
+
+    };
+  }
+
   onDateChange(e) {
     const se = new Date(e.value).toLocaleDateString();
     console.log(se);
