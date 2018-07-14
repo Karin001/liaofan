@@ -55,11 +55,19 @@ export class DataChartsComponent implements OnInit {
   }
   onSelect(event) {
     console.log(event);
+    if (event.series === '中') {
+      return;
+    }
     const listCache = this.showBox.find(ele => ele.name === event.series)
-      .series.find(ele => ele.name === event.name).list;
+      .series.find(ele => ele.name === event.name).valuelist;
     const groupName = event.series === '功' ? 'gong' : 'guo';
-    const listItem =  this.datalist[groupName].xing.concat(this.datalist[groupName].yu,this.datalist[groupName].yi)
-    .filter(ele => listCache.includes(ele.id));
+    const listItem = this.datalist[groupName].xing.concat(this.datalist[groupName].yu, this.datalist[groupName].yi)
+      .filter(ele => Object.keys(listCache).includes(ele.id))
+      .map(ele => {
+        const newOne = { postVal: listCache[ele.id] };
+        Object.assign(newOne, ele);
+        return newOne;
+      });
     console.log(listItem);
   }
   filFac(data) {
@@ -111,13 +119,27 @@ export class DataChartsComponent implements OnInit {
       }
     }
     const temp = data.slice(startIndex, endIndex + 1).map(ele => {
-      return { 'name': ele.date.slice(5, 10), 'value': ele.gong.val, 'list': ele.gong.list }
+      return { 'name': ele.date.slice(5, 10), 'value': ele.gong.val, 'list': ele.gong.list, 'valuelist': ele.gong._val };
     });
+    const temp2 = data.slice(startIndex, endIndex + 1).map(ele => {
+      return { 'name': ele.date.slice(5, 10), 'value': ele.guo.val, 'list': ele.guo.list, 'valuelist': ele.guo._val };
+    });
+    const temp3 = temp.map((v, index) => {
+      return { 'name': v.name, 'value': v.value - temp2[index].value };
+    })
     console.log(temp, startIndex, endIndex);
     this.showBox = [
       {
         'name': '功',
         'series': temp
+      },
+      {
+        'name': '过',
+        'series': temp2
+      },
+      {
+        'name': '中',
+        'series': temp3
       }
     ];
   }

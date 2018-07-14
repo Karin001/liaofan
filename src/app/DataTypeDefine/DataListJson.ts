@@ -23,6 +23,7 @@ export class DataListJson {
 export interface DateLogDetail {
   val: number;
   list: string[];
+  _val: Object;
 }
 export interface DateLog {
   date: string;

@@ -1,70 +1,433 @@
 {
-  "data":[
+  "data": [
     {
-      "date":"2018-07-01T04:18:00.495Z",
-      "gong":{"val":213,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-01T04:18:00.495Z",
+      "gong": {
+        "val": 213,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-02T04:18:00.495Z",
-      "gong":{"val":13,"list":["gong30","gong10","gong11","gong44"]},
-      "guo":{"val":233,"list":["guo2","guo15","guo53","guo134"]}
+      "date": "2018-07-02T04:18:00.495Z",
+      "gong": {
+        "val": 13,
+        "list": [
+          "gong30",
+          "gong10",
+          "gong11",
+          "gong44"
+        ],
+        "_val": {
+          "gong30": 12,
+          "gong10": 1,
+          "gong11": 3,
+          "gong44": 5
+        }
+      },
+      "guo": {
+        "val": 233,
+        "list": [
+          "guo2",
+          "guo15",
+          "guo53",
+          "guo134"
+        ],
+        "_val": {
+          "guo3": 12,
+          "guo15": 1,
+          "guo53": 3,
+          "guo134": 5
+        }
+      }
     },
     {
-      "date":"2018-07-03T04:18:00.495Z",
-      "gong":{"val":33,"list":["gong12","gong1","gong2","gong74"]},
-      "guo":{"val":12,"list":["guo19","guo29","guo39","guo49"]}
+      "date": "2018-07-03T04:18:00.495Z",
+      "gong": {
+        "val": 33,
+        "list": [
+          "gong12",
+          "gong1",
+          "gong2",
+          "gong74"
+        ],
+        "_val": {
+          "gong12": 12,
+          "gong1": 1,
+          "gong2": 3,
+          "gong74": 5
+        }
+      },
+      "guo": {
+        "val": 12,
+        "list": [
+          "guo19",
+          "guo29",
+          "guo39",
+          "guo49"
+        ],
+        "_val": {
+          "guo19": 12,
+          "guo29": 1,
+          "guo39": 3,
+          "guo49": 5
+        }
+      }
     },
     {
-      "date":"2018-07-04T04:18:00.495Z",
-      "gong":{"val":500,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":123,"list":["guo0","guo17","guo57","guo127"]}
+      "date": "2018-07-04T04:18:00.495Z",
+      "gong": {
+        "val": 500,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 123,
+        "list": [
+          "guo0",
+          "guo17",
+          "guo57",
+          "guo127"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo17": 1,
+          "guo57": 3,
+          "guo127": 5
+        }
+      }
     },
     {
-      "date":"2018-07-05T04:18:00.495Z",
-      "gong":{"val":333,"list":["gong39","gong9","gong91","gong64"]},
-      "guo":{"val":17,"list":["guo9","guo77","guo57","guo17"]}
+      "date": "2018-07-05T04:18:00.495Z",
+      "gong": {
+        "val": 333,
+        "list": [
+          "gong39",
+          "gong9",
+          "gong91",
+          "gong64"
+        ],
+        "_val": {
+          "gong39": 12,
+          "gong9": 1,
+          "gong91": 3,
+          "gong64": 5
+        }
+      },
+      "guo": {
+        "val": 17,
+        "list": [
+          "guo9",
+          "guo77",
+          "guo57",
+          "guo17"
+        ],
+        "_val": {
+          "guo9": 12,
+          "guo77": 1,
+          "guo57": 3,
+          "guo17": 5
+        }
+      }
     },
     {
-      "date":"2018-07-06T04:18:00.495Z",
-      "gong":{"val":1334,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo16","guo56","guo126"]}
+      "date": "2018-07-06T04:18:00.495Z",
+      "gong": {
+        "val": 1334,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo16",
+          "guo56",
+          "guo126"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo16": 1,
+          "guo56": 3,
+          "guo126": 5
+        }
+      }
     },
     {
-      "date":"2018-07-08T04:18:00.495Z",
-      "gong":{"val":34,"list":["gong3","gong3","gong121","gong34"]},
-      "guo":{"val":331,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-08T04:18:00.495Z",
+      "gong": {
+        "val": 34,
+        "list": [
+          "gong3",
+          "gong1",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong1": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 331,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-09T04:18:00.495Z",
-      "gong":{"val":213,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-09T04:18:00.495Z",
+      "gong": {
+        "val": 213,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-10T04:18:00.495Z",
-      "gong":{"val":543,"list":["gong16","gong0","gong121","gong34"]},
-      "guo":{"val":233,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-10T04:18:00.495Z",
+      "gong": {
+        "val": 543,
+        "list": [
+          "gong16",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong16": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 233,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-11T04:18:00.495Z",
-      "gong":{"val":212,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":232,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-11T04:18:00.495Z",
+      "gong": {
+        "val": 212,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 232,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-12T04:18:00.495Z",
-      "gong":{"val":189,"list":["gong3","gong4","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo15","guo55","guo125"]}
+      "date": "2018-07-12T04:18:00.495Z",
+      "gong": {
+        "val": 189,
+        "list": [
+          "gong3",
+          "gong4",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong4": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo15",
+          "guo55",
+          "guo125"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo15": 1,
+          "guo55": 3,
+          "guo125": 5
+        }
+      }
     },
     {
-      "date":"2018-07-13T04:18:00.495Z",
-      "gong":{"val":213,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-13T04:18:00.495Z",
+      "gong": {
+        "val": 213,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     },
     {
-      "date":"2018-07-14T04:18:00.495Z",
-      "gong":{"val":213,"list":["gong3","gong0","gong121","gong34"]},
-      "guo":{"val":23,"list":["guo0","guo10","guo50","guo124"]}
+      "date": "2018-07-14T04:18:00.495Z",
+      "gong": {
+        "val": 213,
+        "list": [
+          "gong3",
+          "gong0",
+          "gong121",
+          "gong34"
+        ],
+        "_val": {
+          "gong3": 12,
+          "gong0": 1,
+          "gong121": 3,
+          "gong34": 5
+        }
+      },
+      "guo": {
+        "val": 23,
+        "list": [
+          "guo0",
+          "guo10",
+          "guo50",
+          "guo124"
+        ],
+        "_val": {
+          "guo0": 12,
+          "guo10": 1,
+          "guo50": 3,
+          "guo124": 5
+        }
+      }
     }
   ]
 }
-
