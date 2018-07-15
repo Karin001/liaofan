@@ -18,17 +18,12 @@
         </mat-nav-list>
       </div>
     <div class="chenreng">
-      <mat-nav-list>
-          <mat-list-item><span>今日承认</span></mat-list-item>
-      </mat-nav-list>
-    </div>
-    <div class="chenreng">
         <mat-nav-list>
             <mat-list-item [routerLink]="['/charts']"><span>历史记录</span></mat-list-item>
         </mat-nav-list>
       </div>
   </mat-sidenav>
-  <mat-sidenav-content>
-   <router-outlet></router-outlet>
+  <mat-sidenav-content id="list" #list>
+   <router-outlet ></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

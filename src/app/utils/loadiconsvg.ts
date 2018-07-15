@@ -21,4 +21,7 @@ export const loadIconSvg = (iconRegistry, sanitizer) => {
   iconRegistry.addSvgIcon(
     'right',
     sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/right.svg`));
+    iconRegistry.addSvgIcon(
+      'sword',
+      sanitizer.bypassSecurityTrustResourceUrl(`${iconDir}/sword.svg`));
 };

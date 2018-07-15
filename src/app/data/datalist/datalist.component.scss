@@ -1,10 +1,33 @@
 @import "../../../baseStyle/customMinx.scss";
 @import "../../../baseStyle/_include-media.scss";
 :host{
+  background: #806161;
+  h2{
+    font-family: "微软雅黑";
+    font-weight:600;
+    font-size: 18px;
+    text-align: center;
+  }
+  mat-selection-list {
+    background: white;
+  }
     .state-shower{
         position: relative;
         top:200px;
         left:150px;
+    }
+    .nav-btn-box{
+      @include flx(row,space-between);
+    }
+    .nav-btn{
+      margin: 15px;
+
+      font-size: 14px;
+      box-sizing: border-box;
+      width: 50px;
+      padding: 10px;
+      text-align: center;
+      background: rgba(201, 201, 201,.4);
     }
 
 }

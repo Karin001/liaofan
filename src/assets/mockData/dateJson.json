@@ -1,14 +1,14 @@
 {
   "sum":{
-    "gong":123,
-    "guo":23,
-    "zhong":100
+    "gong":"xxx",
+    "guo":"xxx",
+    "zhong":"xxx"
   },
   "data": [
     {
       "date": "2018-07-01T04:18:00.495Z",
       "gong": {
-        "val": 213,
+        "val": 123,
         "list": [
           "gong3",
           "gong0",
@@ -16,10 +16,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -31,10 +31,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -49,10 +49,10 @@
           "gong44"
         ],
         "_val": {
-          "gong30": 12,
-          "gong10": 1,
-          "gong11": 3,
-          "gong44": 5
+          "gong30": "xxx",
+          "gong10": "xxx",
+          "gong11": "xxx",
+          "gong44": "xxx"
         }
       },
       "guo": {
@@ -64,10 +64,10 @@
           "guo134"
         ],
         "_val": {
-          "guo3": 12,
-          "guo15": 1,
-          "guo53": 3,
-          "guo134": 5
+          "guo3": "xxx",
+          "guo15": "xxx",
+          "guo53": "xxx",
+          "guo134": "xxx"
         }
       }
     },
@@ -82,10 +82,10 @@
           "gong74"
         ],
         "_val": {
-          "gong12": 12,
-          "gong1": 1,
-          "gong2": 3,
-          "gong74": 5
+          "gong12": "xxx",
+          "gong1": "xxx",
+          "gong2": "xxx",
+          "gong74": "xxx"
         }
       },
       "guo": {
@@ -97,10 +97,10 @@
           "guo49"
         ],
         "_val": {
-          "guo19": 12,
-          "guo29": 1,
-          "guo39": 3,
-          "guo49": 5
+          "guo19": "xxx",
+          "guo29": "xxx",
+          "guo39": "xxx",
+          "guo49": "xxx"
         }
       }
     },
@@ -115,10 +115,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -130,10 +130,10 @@
           "guo127"
         ],
         "_val": {
-          "guo0": 12,
-          "guo17": 1,
-          "guo57": 3,
-          "guo127": 5
+          "guo0": "xxx",
+          "guo17": "xxx",
+          "guo57": "xxx",
+          "guo127": "xxx"
         }
       }
     },
@@ -148,10 +148,10 @@
           "gong64"
         ],
         "_val": {
-          "gong39": 12,
-          "gong9": 1,
-          "gong91": 3,
-          "gong64": 5
+          "gong39": "xxx",
+          "gong9": "xxx",
+          "gong91": "xxx",
+          "gong64": "xxx"
         }
       },
       "guo": {
@@ -163,10 +163,10 @@
           "guo17"
         ],
         "_val": {
-          "guo9": 12,
-          "guo77": 1,
-          "guo57": 3,
-          "guo17": 5
+          "guo9": "xxx",
+          "guo77": "xxx",
+          "guo57": "xxx",
+          "guo17": "xxx"
         }
       }
     },
@@ -181,10 +181,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -196,10 +196,10 @@
           "guo126"
         ],
         "_val": {
-          "guo0": 12,
-          "guo16": 1,
-          "guo56": 3,
-          "guo126": 5
+          "guo0": "xxx",
+          "guo16": "xxx",
+          "guo56": "xxx",
+          "guo126": "xxx"
         }
       }
     },
@@ -214,10 +214,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong1": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong1": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -229,10 +229,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -247,10 +247,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -262,10 +262,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -280,10 +280,10 @@
           "gong34"
         ],
         "_val": {
-          "gong16": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong16": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -295,10 +295,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -313,10 +313,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -328,10 +328,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -346,10 +346,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong4": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong4": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -368,17 +368,17 @@
           "guo9"
         ],
         "_val": {
-          "guo0": 12,
-          "guo15": 1,
-          "guo55": 3,
-          "guo125": 5,
-          "guo3":6,
-          "guo4":6,
-          "guo5":9,
-          "guo6":10,
-          "guo7":11,
-          "guo8":12,
-          "guo9":13
+          "guo0": "xxx",
+          "guo15": "xxx",
+          "guo55": "xxx",
+          "guo125": "xxx",
+          "guo3":"xxx",
+          "guo4":"xxx",
+          "guo5":"xxx",
+          "guo6":"xxx",
+          "guo7":"xxx",
+          "guo8":"xxx",
+          "guo9":"xxx"
         }
       }
     },
@@ -393,10 +393,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -408,10 +408,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     },
@@ -426,10 +426,10 @@
           "gong34"
         ],
         "_val": {
-          "gong3": 12,
-          "gong0": 1,
-          "gong121": 3,
-          "gong34": 5
+          "gong3": "xxx",
+          "gong0": "xxx",
+          "gong121": "xxx",
+          "gong34": "xxx"
         }
       },
       "guo": {
@@ -441,10 +441,10 @@
           "guo124"
         ],
         "_val": {
-          "guo0": 12,
-          "guo10": 1,
-          "guo50": 3,
-          "guo124": 5
+          "guo0": "xxx",
+          "guo10": "xxx",
+          "guo50": "xxx",
+          "guo124": "xxx"
         }
       }
     }

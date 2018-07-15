@@ -1,12 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/theming';
+
+
 @import "./baseStyle/_include-media.scss";
 @import "./baseStyle/init.scss";
 @import "./baseStyle/customMinx.scss";
+@include mat-core();
+$custom-primary: mat-palette($mat-blue-grey, 500); /* 500是預設值，也可以忽略 */
+$custom-accent: mat-palette($mat-grey);
+$custom-warn: mat-palette($mat-brown);
+$custom-theme: mat-light-theme($custom-primary, $custom-accent, $custom-warn);
+
+@include angular-material-theme($custom-theme);
 html, body{
     height:100%;
 
 }
+
 ngx-charts-legend{
   position: relative;
   top: 100px;

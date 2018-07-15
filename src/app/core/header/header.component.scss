@@ -3,6 +3,7 @@
 ul{
     flex:1;
     @include flx;
+
     .dummy{
         flex:1;
     }
@@ -13,7 +14,7 @@ ul{
         display: none;
     }
     .list{
-       
+
         margin: 0 15px;
     }
     @include media('<tablet') {
