@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { single, multi } from '../../../assets/mockData/data';
 import { RestapiService } from '../../service/restapi.service';
 import { DateJson, DataListJson } from '../../DataTypeDefine/DataListJson';
@@ -10,17 +10,20 @@ import { DateJson, DataListJson } from '../../DataTypeDefine/DataListJson';
 export class DataChartsComponent implements OnInit {
   private dateJson: DateJson;
   private datalist: DataListJson;
+  private detailToShow;
+  private lstSelectGroup;
   single: any[];
   multi: any[];
   disabled = true;
   showBox;
+  _showBox;
   view: any[] = [600, 400];
 
   // options
   showXAxis = true;
   showYAxis = true;
   gradient = false;
-  showLegend = false;
+  showLegend = true;
   showXAxisLabel = false;
   xAxisLabel = 'Country';
   showYAxisLabel = false;
@@ -33,7 +36,8 @@ export class DataChartsComponent implements OnInit {
   // line, area
   autoScale = true;
   constructor(
-    private restapi: RestapiService
+    private restapi: RestapiService,
+    private cdr: ChangeDetectorRef
   ) {
     Object.assign(this, { single, multi }
     );
@@ -55,6 +59,25 @@ export class DataChartsComponent implements OnInit {
   }
   onSelect(event) {
     console.log(event);
+    if (['功', '过', '中'].includes(event)) {
+      if (this.lstSelectGroup && this.lstSelectGroup === event) {
+        this.showBox = [...this._showBox];
+        console.log('11',this.showBox,this._showBox);
+        this.lstSelectGroup = undefined;
+        return;
+      }
+      this.lstSelectGroup = event;
+      const showBox = JSON.parse(JSON.stringify(this._showBox));
+      showBox.forEach(ele => {
+        if (ele.name !== event) {
+          ele.series = [];
+          console.log('23',JSON.stringify(this._showBox));
+        }
+      });
+      this.showBox = [...showBox];
+      console.log('22',this._showBox);
+      return;
+    }
     if (event.series === '中') {
       return;
     }
@@ -64,11 +87,13 @@ export class DataChartsComponent implements OnInit {
     const listItem = this.datalist[groupName].xing.concat(this.datalist[groupName].yu, this.datalist[groupName].yi)
       .filter(ele => Object.keys(listCache).includes(ele.id))
       .map(ele => {
-        const newOne = { postVal: listCache[ele.id] };
+        const newOne = { postVal: listCache[ele.id], name: `${event.name}日之${event.series}`, sumVal: event.value };
         Object.assign(newOne, ele);
         return newOne;
       });
     console.log(listItem);
+    this.detailToShow = listItem;
+    console.log(this.detailToShow);
   }
   filFac(data) {
     return (d: Date) => {
@@ -142,6 +167,8 @@ export class DataChartsComponent implements OnInit {
         'series': temp3
       }
     ];
+    this._showBox = JSON.parse(JSON.stringify(this.showBox));
+    console.log(this._showBox, this.showBox[1].series === this._showBox[1].series);
   }
   handleDate() {
 

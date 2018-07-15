@@ -4,21 +4,16 @@
   <mat-datepicker #picker disabled="false"></mat-datepicker>
 </mat-form-field>
 <div class="container">
-  <ngx-charts-line-chart
-  *ngIf="showBox && datalist"
-  [scheme]="colorScheme"
-  [results]="showBox"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [legend]="showLegend"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  [autoScale]="autoScale"
-  (select)="onSelect($event)">
+  <ngx-charts-line-chart *ngIf="showBox && datalist" [scheme]="colorScheme" [results]="showBox" [gradient]="gradient" [xAxis]="showXAxis"
+    [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel" [autoScale]="autoScale" (select)="onSelect($event)">
   </ngx-charts-line-chart>
 </div>
+<div class="detail" *ngIf="detailToShow">
+  <h3 [ngStyle]="{'color': detailToShow[0].path.split('-')[0]==='gong'?'green':'red'}">{{detailToShow[0].name}} 总计：{{detailToShow[0].sumVal}}</h3>
+  <ng-container *ngFor="let item of detailToShow">
+    <p class="content">{{item.content}}</p>
+    <p class="val" [ngStyle]="{'color': item.path.split('-')[0]==='gong'?'green':'red'}">{{item.postVal}}</p>
+  </ng-container>
 
-
+</div>
