@@ -26,10 +26,12 @@ export interface DateLogDetail {
   _val: Object;
 }
 export interface DateLog {
+
   date: string;
   gong: DateLogDetail;
   guo: DateLogDetail;
 }
 export class DateJson {
+  sum: { gong: number; guo: number; zhong: number };
   data: DateLog[];
 }

@@ -5,6 +5,23 @@
   @include flx(column,flex-start,center);
 
 }
+.total{
+  font-family: "微软雅黑";
+  margin-bottom: 5px;
+  *{
+    margin-right: 15px;
+  }
+  .all-gong{
+    color: #149E14;
+
+  }
+  .all-guo{
+    color:#B31C1C;
+  }
+  .all-zhong{
+    color:#CEA930
+  }
+}
 .container{
  width: 100%;
  height: 40%;

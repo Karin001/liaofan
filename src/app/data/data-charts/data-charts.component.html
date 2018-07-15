@@ -1,5 +1,10 @@
+<div class="total" *ngIf="dateJson">
+    <span class="all-gong">总功:{{dateJson.sum.gong}}</span>
+    <span class="all-guo">总过:{{dateJson.sum.guo}}</span>
+    <span class="all-zhong">中:{{dateJson.sum.zhong}}</span>
+</div>
 <mat-form-field *ngIf="dateJson && datalist">
-  <input matInput disabled [matDatepickerFilter]="filFac(dateJson)" [matDatepicker]="picker" placeholder="Choose a date" (dateChange)="onDateChange($event)">
+  <input matInput disabled [matDatepickerFilter]="filFac(dateJson)" [matDatepicker]="picker" placeholder="选择日期" (dateChange)="onDateChange($event)">
   <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
   <mat-datepicker #picker disabled="false"></mat-datepicker>
 </mat-form-field>
